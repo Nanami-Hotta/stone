@@ -1,11 +1,57 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
-    <meta charset="UTF-8">
-    <title>stone</title>
-  </head>
-  <body>
-    <h1>stone</h1>
-      <img src="images/logo.gif" alt="" />
-  </body>
+
+<head>
+  <meta charset="utf-8" />
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="script.js"></script>
+  <script>
+  (function(d) {
+    var config = {
+      kitId: 'jee1txf',
+      scriptTimeout: 3000,
+      async: true
+    },
+    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+  })(document);
+</script>
+  <link rel="stylesheet" href="https://use.typekit.net/hyj5mft.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Zen+Old+Mincho:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>stone</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js" type="text/javascript"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=yes">
+</head>
+
+<body>
+
+  <div>
+    <div style="text-align: center" id="top_home"><a href="#"><img src="images/logo.png" width="13%" alt=""></a></div>
+    <nav>
+      <div id="MenuList_home">
+        <ul>
+          <li><a href="#">ABOUT</a></li>
+          <li><a href="pattern.html">PATTERN</a></li>
+          <li><a href="shape.html">SHAPE</a></li>
+          <li><a href="sound.html">SOUND</a></li>
+          <li><a href="project.html">PROJECT</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+<p style="text-align: center"><img src="images/main.jpg" width="100%" alt="" id="main"></p>
+
+  <footer>
+    <small>
+      <p class="copyright_home">COPYRIGHT STONE ALL RIGHTS RESERVED.</p>
+    </small>
+  </footer>
+
+</body>
+
 </html>
