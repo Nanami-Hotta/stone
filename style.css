@@ -34,9 +34,10 @@ header {
   left: 0;
   width: 100%;
   height: 4rem;
-  background-color: white;
+  background-color: none;
   letter-spacing: 1px;
   color: #313B50;
+  z-index: 999;
 }
 
 header a:link {
@@ -45,10 +46,9 @@ header a:link {
 
 #top {
   position: absolute;
-  width: 100%;
-  top: 1rem;
+  width: 100px;
+  top: 1.5rem;
   left: 2rem;
-  font-size: 1.5rem;
 }
 
 #main {
@@ -137,7 +137,8 @@ header a:link {
   }
 
   section {
-    padding: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
     margin-top: 10rem;
     margin-bottom: 20rem;
     height: auto;
@@ -150,28 +151,9 @@ header a:link {
     letter-spacing: 2px;
   }
 
-  #about {
-    margin-bottom: 10rem;
-    line-height: 300%;
-  }
-
-  .about-img {
-  	margin-right: calc(50% - 50vw);
-  	margin-left: calc(50% - 50vw);
-  }
-
-  .about-img img{
-    display: block;
-    width: 100%;
-    height:auto;
-    margin-top: 0;
-    margin-left: 0;
-    margin-right: 0;
-  }
-
   #pattern {
-    margin-bottom: 100px;
-    width: auto;
+    margin: auto;
+    width: 1120px;
   }
 
   #pattern h1 {
@@ -179,9 +161,11 @@ header a:link {
     line-height: 200%;
   }
 
+/*--
   #pattern p {
     margin-top: 3rem;
   }
+
 
   #pattern img {
     width: 100%;
@@ -189,13 +173,82 @@ header a:link {
     max-width: 300px;
   }
 
+  --*/
+
   .image_box {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin-bottom: 3rem;
-    margin-left: 0 1rem;
+  }
+
+  .image_box img {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .imglist_cards {
+    overflow: hidden;
+  }
+
+  .imgcard_01 {
+    overflow: hidden;
+    width: 352px;
+    height: 352px;
+    margin-bottom: 32px;
+    margin-right: 32px;
+    float: left;
+    position: relative;
+  }
+
+  .imgcard_02 {
+    overflow: hidden;
+    width: 391.498px;
+    height: 391.498px;
+    margin-bottom: 32px;
+    margin-right: 32px;
+    float: left;
+    position: relative;
+  }
+
+  .imgcard_02-2 {
+    overflow: hidden;
+    width: 695.9964px;
+    height: 391.498px;
+    margin-bottom: 32px;
+    margin-right: 32px;
+    float: left;
+    position: relative;
+  }
+
+  .imgcard_03 {
+    overflow: hidden;
+    width: 544px;
+    height: 544px;
+    margin-bottom: 32px;
+    margin-right: 32px;
+    float: left;
+    position: relative;
+  }
+
+  .imgcard_03-2 {
+    overflow: hidden;
+    width: 544px;
+    height: 544px;
+    margin-bottom: 32px;
+    margin-right: 32px;
+    float: left;
+    position: relative;
+  }
+
+  .imgcard_right {
+    margin-right: 0;
+  }
+
+  .imgcard img {
+    width: 100%;
+    height: auto;
   }
 
   .concept-img {
@@ -230,6 +283,7 @@ header a:link {
   }
 
   footer {
+    margin-top: 250px;
     padding: 40px;
     letter-spacing: 1px;
     color: #313B50;
