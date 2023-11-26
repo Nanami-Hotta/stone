@@ -16,16 +16,12 @@ $(function() {
 
   // loading
 
-  $(function () {
-    function end_loader() {
-      $('.loader').fadeOut(800);
-    }
-    $(window).on('load', function () {
-      setTimeout(function () {
-        end_loader();
-      }, 3000)
-    })
-  })
+  window.onload = function() {
+    const spinner = document.getElementById('loading');
+
+    // Add .loaded to .loading
+    spinner.classList.add('loaded');
+  }
 
   // Window Resize Function
 
