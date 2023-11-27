@@ -28,7 +28,7 @@ body {
     align-items: center;
   }*/
 
-  .loader {
+  #loading {
     width: 100vw;
     height: 100vh;
     transition: all 1s;
@@ -37,9 +37,11 @@ body {
     top: 0;
     left: 0;
     z-index: 9999;
+    /*
     display: flex;
     justify-content: center;
     align-items: center;
+    */
 }
 
 .loaded {
