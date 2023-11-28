@@ -47,11 +47,6 @@ body {
   visibility: hidden;
 }
 
-h1 {
-  font-weight: normal;
-  font-size: 43px;
-}
-
 h2 {
   font-weight: normal;
   font-size: 35px;
@@ -197,33 +192,6 @@ header a:link {
     line-height: 200%;
   }
 
-/*--
-  #pattern p {
-    margin-top: 3rem;
-  }
-
-
-  #pattern img {
-    width: 100%;
-    height: 100%;
-    max-width: 300px;
-  }
-
-  --*/
-
-  .image_box {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 3rem;
-  }
-
-  .image_box img {
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
-
   .imglist_cards {
     overflow: hidden;
     display: flex;
@@ -259,38 +227,13 @@ header a:link {
     margin-right: 0;
   }
 
-  .concept-img {
-  	margin-right: calc(50% - 50vw);
-  	margin-left: calc(50% - 50vw);
-  }
-
-  .concept-img ul {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  #img01 {
-    display: block;
-    padding-right: 2rem;
-  }
-
-  #img02 {
-    display: block;
-    width: 100%;
-    height: auto;
-    max-width: auto;
-    margin-right: 0;
-    margin-left: auto;
-    padding-top: 10rem;
-  }
-
   .parent_box {
     width: 100%;
     display: flex;
     justify-content: space-around;
   }
 
-  footer {
+  footer .foot-wrap {
     margin-top: 250px;
     padding: 40px;
     letter-spacing: 1px;
@@ -328,7 +271,10 @@ header a:link {
 
   .copyright_home {
     text-align: center;
-    margin-top: 10rem;
+    margin-top: 50px;
+    padding: 40px;
+    letter-spacing: 1px;
+    color: #313B50;
   }
 
 @media only screen and (max-width: 768px) {
@@ -391,7 +337,7 @@ header a:link {
     #MenuList li {
       width: 100%;
       padding: 0;
-      border-bottom: 1px solid darkblue;
+      border-bottom: 1px solid #313B50;
     }
 
     #MenuList a {
@@ -456,9 +402,9 @@ header a:link {
 @media screen and (max-width: 480px) {
 	/* 480px以下に適用されるCSS（スマホ用） */
 
-  h1 {
-    font-weight: normal;
-    font-size: 25px;
+  #pattern h1 {
+    padding-top: 5rem;
+    font-size: 18px;
   }
 
   h2 {
@@ -486,6 +432,40 @@ header a:link {
     padding: 10px;
     margin-top: 5rem;
     margin-bottom: 5rem;
+  }
+
+  section h1 {
+  margin-bottom: 5rem;
+  }
+
+  .imgcard {
+    margin-bottom: 10px;
+    margin-right: 10px;
+  }
+
+  .imgcard_size {
+    margin-bottom: 10px;
+    margin-right: 10px;
+  }
+
+  .imgcard_right {
+    margin-right: 0;
+  }
+
+  .menu-left ul {
+    display: none;
+  }
+
+  .foot-wrap img{
+    display: none;
+  }
+
+  footer .foot-wrap {
+  margin-top: 50px;
+  }
+
+  .copyright {
+    text-align: center;
   }
 
   #about {
