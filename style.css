@@ -86,6 +86,10 @@ header a:link {
   margin-top: 6rem;
 }
 
+#main_s {
+  display: none;
+}
+
 #MenuButton {
   display: none;
 }
@@ -224,17 +228,11 @@ header a:link {
     max-width: 1120px;
     width: 100%;
     height: auto;
-    aspect-ratio: 10/4;
+    aspect-ratio: 1/1;
   }
 
   .imgcard_right {
     margin-right: 0;
-  }
-
-  .parent_box {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
   }
 
   footer .foot-wrap {
@@ -432,12 +430,23 @@ header a:link {
     margin-right: 1rem;
   }
 
-  #top_home img{
-    width: 20%;
+  #top_home {
+    margin-top: 50px;
+    margin-bottom: 20px;
   }
 
   #MenuList_home ul{
     font-size: 10px;
+  }
+
+  #main {
+  	display: none;
+  }
+
+  #main_s {
+  	width:75%;
+    height:auto;
+    margin-top: 6rem;
   }
 
   section {
