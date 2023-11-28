@@ -433,6 +433,10 @@ header a:link {
     margin-bottom: 20px;
   }
 
+  #top_home img{
+    width: 20%;
+  }
+
   #MenuList_home ul{
     font-size: 10px;
   }
