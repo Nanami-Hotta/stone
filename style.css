@@ -119,6 +119,10 @@ header a:link {
     margin-bottom: 3rem;
   }
 
+  #top_home img{
+    width: 13%;
+  }
+
   /*
 
     #MenuList_hom ul {
@@ -428,6 +432,14 @@ header a:link {
     margin-right: 1rem;
   }
 
+  #top_home img{
+    width: 20%;
+  }
+
+  #MenuList_home ul{
+    font-size: 10px;
+  }
+
   section {
     padding: 10px;
     margin-top: 5rem;
@@ -466,27 +478,6 @@ header a:link {
 
   .copyright {
     text-align: center;
-  }
-
-  #about {
-    line-height: 200%;
-  }
-
-  #concept {
-    line-height: 200%;
-  }
-
-  #concept img{
-    width: 0;
-  }
-
-  #img01 {
-    width: 100%;
-    padding-right: 0;
-  }
-
-  #img02 {
-    width: 0;
   }
 
   .parent_box {
