@@ -190,6 +190,27 @@ header a:link {
     line-height: 200%;
   }
 
+  #pattern p {
+    font-size: 13px;
+    line-height: 200%;
+    margin-bottom: 50px;
+  }
+
+  /* SOUND */
+
+  .video-wrap {
+    position: relative;
+}
+.video-btn {
+    content: "";
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:40px; /*コントローラー分下部に余白を*/
+    cursor: pointer;
+}
+
   .imglist_cards {
     overflow: hidden;
     display: flex;
@@ -235,6 +256,8 @@ header a:link {
   .imgcard_right {
     margin-right: 0;
   }
+
+
 
   footer .foot-wrap {
     margin-top: 250px;
