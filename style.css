@@ -158,14 +158,6 @@ header a:link {
       color: #313B50;
     }
 
-  .side-img {
-    display: flex;
-  }
-
-  p.side-text {
-    display: flex;
-  }
-
   #wrapper {
     margin-left: 5rem;
     margin-right: 5rem;
@@ -229,6 +221,17 @@ header a:link {
     aspect-ratio: 1/1;
   }
 
+  .imgcard_shape {
+    margin-bottom: 50px;
+    margin-right: 50px;
+  }
+
+  .imgcard_shape p {
+    margin-top: 15px;
+    font-size: 8px;
+    letter-spacing: 0.5px;
+  }
+
   .imgcard_right {
     margin-right: 0;
   }
@@ -261,7 +264,7 @@ header a:link {
   }
 
   footer a:hover {
-    color: blue;
+    color: steelblue;
   }
 
   .copyright {
