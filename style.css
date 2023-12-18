@@ -228,19 +228,28 @@ header a:link {
     position: relative;
   }
 
-  .imgcard_size {
+  .imglist_cards_auto {
     overflow: hidden;
-    margin-bottom: 32px;
+    display: flex;
+  }
+
+  .imgcard_size:first-of-type {
+    flex-shrink: 1.2;
+  }
+
+  .imgcard_size {
+    margin-bottom: 115px;
     margin-right: 32px;
     position: relative;
-  }
+}
 
   .imgcard_size img {
     max-width: 1120px;
     width: 100%;
-    height: auto;
-    aspect-ratio: 1/1;
+    height: 100%;
+    object-fit: cover;
   }
+
 
   .imgcard_shape {
     margin-bottom: 50px;
