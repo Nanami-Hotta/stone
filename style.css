@@ -86,10 +86,6 @@ header a:link {
   margin-top: 6rem;
 }
 
-#main_s {
-  display: none;
-}
-
 #MenuButton {
   display: none;
 }
@@ -165,6 +161,22 @@ header a:link {
     flex-direction: column;
   }
 
+    #home_text {
+    margin-top: 0rem;
+    padding-top: 8rem;
+    letter-spacing: 2px;
+    line-height: 40px;
+    }
+
+    #home_text h1 {
+    margin-bottom: 2rem;
+    font-size: 20px;
+    }
+
+    #home_text p {
+    font-size: 13px;
+    }
+
   section {
     padding-left: 50px;
     padding-right: 50px;
@@ -178,6 +190,7 @@ header a:link {
   section h1 {
     margin-bottom: 10rem;
     letter-spacing: 2px;
+    font-weight: normal;
   }
 
   #pattern {
@@ -194,6 +207,11 @@ header a:link {
     font-size: 13px;
     line-height: 200%;
     margin-bottom: 50px;
+  }
+
+  #home_pattern p {
+    font-size: 16px;
+    text-align: center;
   }
 
   /* SOUND */
@@ -223,7 +241,6 @@ header a:link {
 
   .imgcard {
     overflow: hidden;
-    margin-bottom: 32px;
     margin-right: 32px;
     position: relative;
   }
@@ -238,7 +255,7 @@ header a:link {
   }
 
   .imgcard_size {
-    margin-bottom: 115px;
+    margin-bottom: 80px;
     margin-right: 32px;
     position: relative;
 }
@@ -310,6 +327,10 @@ header a:link {
     padding: 40px;
     letter-spacing: 1px;
     color: #313B50;
+  }
+
+  #bottom_logo {
+    width:100px;
   }
 
 @media only screen and (max-width: 768px) {
@@ -473,17 +494,28 @@ header a:link {
   }
 
   #MenuList_home ul{
-    font-size: 10px;
+    font-size: 12px;
   }
 
   #main {
-  	display: none;
+    margin-top: 4rem;
   }
 
-  #main_s {
-  	width:75%;
-    height:auto;
-    margin-top: 6rem;
+  #home_text {
+    margin: 2rem;
+    margin-top: 0rem;
+    padding-top: 3rem;
+    letter-spacing: 2px;
+    line-height: 25px;
+  }
+
+  #home_text h1 {
+  margin-bottom: 2rem;
+  font-size: 12px;
+  }
+
+  #home_text p {
+  font-size: 10px;
   }
 
   section {
@@ -494,6 +526,7 @@ header a:link {
 
   section h1 {
   margin-bottom: 5rem;
+  font-size: 15px;
   }
 
   .imgcard {
